@@ -11,9 +11,6 @@ use File::stat;
 use XML::RSS;
 use Term::ANSIColor;
 
-my $feedname = 'https://smashingmagazine.com/feed';
-my $cachefn = "$HOME/.cache/newsletter/newsfeed.xml";
-
 my $cachepath = "$HOME/.cache/newsletter";
 my %myfeeds = (
 	'smashingcss.xml'
